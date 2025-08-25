@@ -1,0 +1,5 @@
+# Remove all negative numbers from list.
+
+mylist = [1,2,7,-2,67,-5,12]
+new = [i for i in mylist if i > 0]
+print(new)    
